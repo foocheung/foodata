@@ -17,4 +17,6 @@ StripTrailingWhitespace: Yes
 
 BuildType: Package
 PackageUseDevtools: Yes
+PackagePath: /Users/cheungf/Library/CloudStorage/OneDrive-NationalInstitutesofHealth/R/foodata
 PackageInstallArgs: --no-multiarch --with-keep.source
+PackageRoxygenize: rd,collate,namespace
