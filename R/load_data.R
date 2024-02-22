@@ -11,12 +11,12 @@ load_data2 <- function() {
 
 
 load_data3 <- function() {
-  data <- SomaDataIO::read_adat(system.file("data", "simulated_data_Serum.hybNorm.medNormInt.plateScale.calibrate.anmlQC.qcCheck.anmlSMP.adat", package = "foodata"))
+  data <- SomaDataIO::read_adat(system.file("data", "example_data_v4.1_plasma.adat", package = "foodata"))
   return(data)
 }
 
 load_data3B <- function() {
-  data <- SomaDataIO::parseHeader(system.file("data", "simulated_data_Serum.hybNorm.medNormInt.plateScale.calibrate.anmlQC.qcCheck.anmlSMP.adat", package = "foodata"))
+  data <- SomaDataIO::parseHeader(system.file("data", "example_data_v4.1_plasma.adat", package = "foodata"))
   return(data)
 }
 
